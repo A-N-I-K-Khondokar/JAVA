@@ -1,0 +1,17 @@
+1. Write a program that writes the following to the screen:
+  Your Name
+  Your Roll
+  Your Email address
+2. Find the difference between System.out.println, System.out.print
+
+3. What would be the result for the following:
+ System.out.printf("%s\n%10s\n%-10s\n","Hello","Hello","Hello");
+
+4. Try to print an double variable in various format using printf and println function:
+ (to declare double variable you can use: double abc=10.57645; )
+ Various format means: 
+ exponent format, 
+ 2 digits after decimal point, 
+ 0-padded format, 
+ left justified format, 
+ ight justified fomat

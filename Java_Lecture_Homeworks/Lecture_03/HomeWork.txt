@@ -1,0 +1,13 @@
+String and Scanner
+
+Write a program that takes two string S1 and S2 as input and perform the following operations:
+-Print the length of each string.
+-Replace all spaces of S1 to underscore(_).
+-Print the first character of S1.
+-Compare the string S1 and S2 and print “equal” or “not equal” accordingly
+-Find the first occurrence of character ‘a’ in S1 and print it’s position.
+-If S1 is a substring of S2 or S2 is a substring of S1 then print a message.
+-Convert the S1 string to lower case and S2 string to upper case letter.
+-Save the S1 string to a character array.
+-What is the task of “trim” function?
+-What’s the difference between “equals()” and “==“ to compare string?

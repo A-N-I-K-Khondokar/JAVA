@@ -1,0 +1,14 @@
+##Suppose you are given the following
+    double a=56.34, b=6.58334, c=-34.4265;
+1. Calculate the following value:
+2. Print the pi’s value and e’s value
+3. Print a random number.
+4. Find the absolute value of the variable c
+5. Find the square root of a
+6. Find the maximum value between a and b
+7. Calculate the value ab
+8. Round the number a
+9. Calculate the value of √(a2+b2)
+10. Find the floor, ceil and round value of b and c
+11. Find the radian value of a.
+12. Find the sin value of a where a represents the degree
