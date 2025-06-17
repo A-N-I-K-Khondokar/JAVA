@@ -1,31 +1,36 @@
 
-import java.util.*;
-class Anik{
-    protected int i;
-    Anik(int i){
-        this.i=i;
+ class PrintNumbers {
+    static public void printNumbers() {
+        for (int i = 0; i < 1000; i++) {
+            System.out.println(i);
+        }
     }
 }
-class Bonik extends Anik{
-    protected int i;
-    Bonik(int a,int b){
-        super(a);
-        this.i=b;
-    }
-    void print_super(){
-        System.out.println(super.i);
-    }
 
+ class Thread2 implements Runnable {
 
+    @Override
+    public void run() {
+        // Print current thread ID
+        System.out.println("Thread2 ThreadId: " + Thread.currentThread().getId());
+        // Execute printNumbers in this thread
+        PrintNumbers.printNumbers();
+    }
 }
 
 public class Test {
     public static void main(String[] args) {
-      Anik a= new Anik(5);
-      Bonik b=new Bonik(6,7);
-        System.out.println(a.i);
-        System.out.println(b.i);
-        b.print_super();
+        // Print main thread ID
+        System.out.println("Main ThreadId: " + Thread.currentThread().getId());
+
+        // Create and start 3 threads, each running a new Thread2 instance
+        for (int i = 0; i < 3; i++) {
+            new Thread(new Thread2()).start();
+            // Important: use start() to run the thread concurrently,
+            // do not call run() directly if you want multithreading
+        }
+
+        // Main thread also calls printNumbers()
+        PrintNumbers.printNumbers();
     }
 }
-
