@@ -1,0 +1,17 @@
+1. Write a class that represents triangle named Triangle, the class must have the following
+members:
+    private double height;//Height
+    private double base;//Base length
+    public Triangle(double h, double b);//Constructor
+    public void setHeight(double x);//Sets height
+    public double getHeight();//Gets height
+    public void setBase(double x);//Sets base length
+    public double getBase();//Gets base length
+    public double getArea();//Returns the area of the triangle
+Write a main function to test the program.
+
+2. Write the definition of a class called Grade that stores the
+information of a student (Name,Roll, Marks, Grade).
+The class calculates the grade of a student according to the obtained
+marks (general grading system) using the Grade_Calculation member function.
+Test the functionality of the class by creating an object of the class.
