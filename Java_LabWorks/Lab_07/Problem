@@ -1,0 +1,14 @@
+
+1. Write a Java program to create a method that takes an integer as a parameter and
+    throws an exception if the number is even.
+
+2. Write a Java program that will take two integer numbers as input from the keyboard.
+Your program should determine whether the first number is a multiple of the second
+number. Your program should provide checking for the following cases:
+
+    i. If any of the two numbers is negative.
+    ii.If the first number is smaller than the second number.
+    iii. If the second number is 0.
+
+You should define appropriate user defined exception class for each of the cases
+and throw an instance of the correct exception when any of the condition arises.
