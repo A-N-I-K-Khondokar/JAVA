@@ -1,0 +1,19 @@
+1. Write a simple addition application that uses two input dialogs to obtain
+integers from the user and a message dialog to display the sum of the integers
+the user enters. Use JOptionPane Dialog boxes to take your input from the user
+and display the output.
+
+2. Write a program that inputs from the user the radius of a circle as an integer and
+prints the circle’s circumference and area using the predefined constant
+Math.PI. Use JOptionPane Dialog boxes to take your input from the user and
+display the output.
+
+3. Write a program that prompts the user for two numbers, the breadth of a
+rectangle and the height of a rectangle. Use a message box to calculate the area
+of the rectangle. Use JOptionPane Dialog boxes to take your input from the user
+and display the output.
+
+4. If a triangle has side lengths a,b,c, then the formula for the area of the triangle is
+area = √s(s − a)(s − b)(s − c), where s = (a + b + c)/2. Write a program that asks
+the user to enter three sides of triangle. The program should compute and
+display the area of triangle. Use JOptionPane Dialog boxes to take your input

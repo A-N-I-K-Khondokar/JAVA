@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
-public class test {
+public class MessageDialog {
     public static void main(String[] args) {
         ImageIcon icon = new ImageIcon("/Users/anikkhondokar/Documents/3rd_Sem/JAVA/Tutrle.jpeg");
 
