@@ -1,33 +1,39 @@
 Problem: Online Payment System
+
 Create an online payment system that supports multiple payment methods, such as Credit
 Card and PayPal. The system should process payments using a common interface for
 different payment methods.
+
 Requirements:
+
 1. Payment Method Interface:
-o Define an interface called PaymentMethod with the following methods:
- boolean authorizePayment(double amount); — Method to authorize the
-payment of the given amount. Return true if the payment is authorized,
-false otherwise.
- void processPayment(double amount); — Method to process the payment.
- void refundPayment(double amount); — Method to refund the payment.
+    o Define an interface called PaymentMethod with the following methods:
+     boolean authorizePayment(double amount); — Method to authorize the
+    payment of the given amount. Return true if the payment is authorized,
+    false otherwise.
+     void processPayment(double amount); — Method to process the payment.
+     void refundPayment(double amount); — Method to refund the payment.
+
 2. CreditCard Class:
 o Create a class CreditCard that implements the PaymentMethod interface.
-o Add fields for cardNumber and cardHolderName.
-o Implement the authorizePayment() method to simulate authorization by
+    o Add fields for cardNumber and cardHolderName.
+    o Implement the authorizePayment() method to simulate authorization by
 checking if the card number is valid.
-o Implement the processPayment() method to simulate processing the payment.
-o Implement the refundPayment() method to simulate refunding the payment.
+    o Implement the processPayment() method to simulate processing the payment.
+    o Implement the refundPayment() method to simulate refunding the payment.
+
 3. PayPal Class:
 o Create a class PayPal that implements the PaymentMethod interface.
-o Add fields for email and password.
-o Implement the authorizePayment() method to simulate PayPal authorization
+    o Add fields for email and password.
+    o Implement the authorizePayment() method to simulate PayPal authorization
 using the email and password.
-o Implement the processPayment() method to simulate processing the payment.
-o Implement the refundPayment() method to simulate refunding the payment.
+   o Implement the processPayment() method to simulate processing the payment.
+   o Implement the refundPayment() method to simulate refunding the payment.
+
 4. PaymentTest Class:
 o Create a PaymentTest class with a main method.
 o In this class, create instances of CreditCard and PayPal.
-o Simulate the payment flow:
-1. Authorize the payment.
-2. If authorized, process the payment.
-3. refund the payment.
+       o Simulate the payment flow:
+          1. Authorize the payment.
+          2. If authorized, process the payment.
+          3. refund the payment.
