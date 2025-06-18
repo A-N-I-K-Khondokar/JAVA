@@ -17,3 +17,4 @@ and display the output.
 area = √s(s − a)(s − b)(s − c), where s = (a + b + c)/2. Write a program that asks
 the user to enter three sides of triangle. The program should compute and
 display the area of triangle. Use JOptionPane Dialog boxes to take your input
+from the user and display the output.
